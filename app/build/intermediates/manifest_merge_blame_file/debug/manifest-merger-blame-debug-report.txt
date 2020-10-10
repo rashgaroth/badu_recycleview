@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2016 Google Inc.
+4
+5Licensed under the Apache License, Version 2.0 (the "License");
+6you may not use this file except in compliance with the License.
+7You may obtain a copy of the License at
+8
+9    http://www.apache.org/licenses/LICENSE-2.0
+10
+11Unless required by applicable law or agreed to in writing, software
+12distributed under the License is distributed on an "AS IS" BASIS,
+13WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14See the License for the specific language governing permissions and
+15limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.android.example.wordlistsqlwithcontentprovider"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="15"
+23-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="29" />
+24-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml
+25
+26    <permission android:name="com.android.example.wordlistsqlwithcontentprovider.PERMISSION" />
+26-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:20:5-96
+26-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:20:17-93
+27
+28    <application
+28-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:22:5-43:19
+29        android:allowBackup="false"
+29-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:23:9-36
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:24:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:25:9-41
+33        android:supportsRtl="true"
+33-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:26:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:27:9-40
+36        <activity android:name="com.android.example.wordlistsqlwithcontentprovider.MainActivity" >
+36-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:28:9-35:20
+36-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:28:19-97
+37            <intent-filter>
+37-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:29:13-33:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:30:17-69
+38-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:30:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:32:17-77
+40-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:32:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.android.example.wordlistsqlwithcontentprovider.EditWordActivity" >
+43-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:36:9-37:20
+43-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:36:19-101
+44        </activity>
+45
+46        <provider
+46-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:38:9-42:20
+47            android:name="com.android.example.wordlistsqlwithcontentprovider.WordListContentProvider"
+47-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:39:13-52
+48            android:authorities="com.android.example.wordlistsqlwithcontentprovider.provider"
+48-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:40:13-94
+49            android:exported="true" >
+49-->C:\Users\Rashtaurigae\AndroidStudioProjects\word_list_sql_with_content_provider\app\src\main\AndroidManifest.xml:41:13-36
+50        </provider>
+51    </application>
+52
+53</manifest>
